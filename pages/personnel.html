@@ -10,6 +10,20 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="../styles/portefolio.css">
+    <?php
+    $ua = $_SERVER['HTTP_USER_AGENT'];
+    if ((preg_match('/iphone/i',$ua))||(preg_match('/android/i',$ua)))
+    {
+      //CSS POUR IPHONE
+      echo '<link rel="stylesheet" href="../styles/mobile.css">';
+
+    }
+    <!-- else
+    {
+      //CSS POUR ORDIS
+      echo '<link rel="stylesheet" href="lib/styles/navigation.css">';
+    } -->
+    ?>
 
     <title>Portefolio</title>
   </head>
