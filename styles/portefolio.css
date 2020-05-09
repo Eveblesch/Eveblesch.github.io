@@ -79,3 +79,14 @@ p{
 .separation{
   margin-bottom: 60px;
 }
+
+
+@media only screen and (max-width: 500px) {
+  #topnav img{
+    width: 360px;
+  }
+
+  li{
+    font-size:50px;
+  }
+}
