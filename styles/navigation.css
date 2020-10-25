@@ -1,0 +1,104 @@
+@font-face {
+   font-family: Ballroom;
+   src: url(../fonts/Ballroom.ttf);
+}
+
+@font-face {
+   font-family: Agatha;
+   src: url(../fonts/Agatha.ttf);
+}
+
+
+@font-face {
+   font-family: Morn-Thin;
+   src: url(../fonts/Morn-Thin.otf);
+}
+
+@font-face {
+   font-family: Clement;
+   src: url(../fonts/ClementePDag-Book.ttf);
+}
+
+@font-face {
+   font-family: Caramella;
+   src: url(../fonts/Caramella.otf);
+}
+
+li{
+  padding-right: 40px;
+}
+
+li:hover{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 50px #00FFFF, 0 0 60px #00FFFF, 0 0 70px #00FFFF;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image{
+  margin-right: 20px;
+}
+
+#topnav{
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+h1{
+  font-family: Ballroom;
+  font-size: 76px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+h2{
+  font-family: Caramella;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top:50px;
+}
+
+h3{
+  font-family: Caramella;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+p{
+  margin-top:30px;
+  font-family: Morn-Thin;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.titre{
+  font-family: Clement;
+}
+
+.row{
+  width: 100%;
+}
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center
+}
