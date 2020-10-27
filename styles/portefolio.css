@@ -96,17 +96,15 @@ p{
 }
 */
 
-/*
+
 .row {
   display: flex;
   justify-content:center;
-
-
 }
 
 .column {
-  flex: 33%;
-}*/
+  flex: 50%;
+}
 
 .general{
   margin-left: auto;
