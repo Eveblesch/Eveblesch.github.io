@@ -103,11 +103,7 @@ p{
   background-color: red;
 }
 
-.column {
-  flex: 50%;
-  background-color: blue;
 
-}
 
 .general{
   margin-left: auto;
