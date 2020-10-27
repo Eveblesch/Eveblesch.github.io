@@ -95,6 +95,8 @@ p{
 
 .row {
   display: flex;
+  justify-content:center;
+
 }
 
 .column {
