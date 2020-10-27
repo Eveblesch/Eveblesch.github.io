@@ -95,13 +95,12 @@ p{
 
 .row {
   display: flex;
-  justify-content:space-evenly;
 }
 
 .column {
   flex: 33.33%;
-  padding: 15px;
-  justify-content:space-evenly;
+  padding-right: 15px;
+  justify-content:center;
 
 }
 
