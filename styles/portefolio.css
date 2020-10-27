@@ -96,15 +96,18 @@ p{
 .row {
   display: flex;
   justify-content:center;
-  margin-left: auto;
-  margin-right: auto;
+
 
 }
 
 .column {
   flex: 33%;
 
+}
 
+.general{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .separation{
