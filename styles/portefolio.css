@@ -105,11 +105,15 @@ p{
 
 .column {
   flex: 50%;
+  background-color: red;
+
 }
 
 .general{
   margin-left: auto;
   margin-right: auto;
+  background-color: red;
+
 }
 
 .separation{
