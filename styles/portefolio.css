@@ -98,7 +98,7 @@ p{
 }
 
 .column {
-  flex: 33.33%;
+  flex: 50%;
   padding-right: 15px;
   justify-content:center;
 
