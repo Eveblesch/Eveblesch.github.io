@@ -105,14 +105,14 @@ p{
 
 .column {
   flex: 50%;
-  background-color: red;
+  background-color: blue;
 
 }
 
 .general{
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+  background-color: yellow;
 
 }
 
