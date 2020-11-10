@@ -87,9 +87,12 @@ p{
   text-align: center;
 }
 
+.row {
+  display: flex;
+}
+
 .column {
-  float: left;
-  width: 50%;
+  flex: 40%;
   padding: 5px;
 }
 
